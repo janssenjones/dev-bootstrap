@@ -1,6 +1,6 @@
 # Description: Boxstarter script for bootstrapping my developer workstation
 
-$dotfilesRepository = "jwbennet"
+$dotfilesRepository = "janssenjones"
 
 Update-ExecutionPolicy Unrestricted
 
