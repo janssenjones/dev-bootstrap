@@ -1,2 +1,0 @@
-adoptium_repository_url: "https://packages.adoptium.net/artifactory"
-adoptium_repository_key_url: "{{ adoptium_repository_url }}/api/gpg/key/public"

@@ -1,7 +1,0 @@
-maven_version: "3.8.7"
-maven_checksum: "sha512:21c2be0a180a326353e8f6d12289f74bc7cd53080305f05358936f3a1b6dd4d91203f4cc799e81761cf5c53c5bbe9dcc13bdb27ec8f57ecf21b2f9ceec3c8d27"
-maven_download_url: "https://archive.apache.org/dist/maven/maven-3/{{ maven_version }}/binaries/apache-maven-{{ maven_version }}-bin.tar.gz"
-maven_tmp_file: /tmp/apache-maven-{{ maven_version }}.tar.gz
-maven_install_parent: "{{ ansible_env.HOME }}/.local/share"
-maven_install_dest: "{{ maven_install_parent }}/apache-maven-{{ maven_version }}"
-maven_symlink_dest: "{{ ansible_env.HOME }}/.local/bin/mvn"
